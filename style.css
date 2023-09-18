@@ -105,3 +105,14 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 441px) {
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .col{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+  }
